@@ -1,0 +1,15 @@
+Example
+class car {
+ void brand () 
+{    System.out.println(“audi");}
+}
+class model extends car {
+ void version () 
+{   System.out.println(“gttron"); }
+}
+public static void main(String[] args) {
+    model obj1 = new model();
+Obj1.version();
+Obj1.brand();
+  }
+}
